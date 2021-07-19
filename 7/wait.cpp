@@ -12,7 +12,9 @@ void exit_s(int status)
     else if (WIFSIGNALED(status))
         printf("signal exit! status = %d\n", WTERMSIG(status)); //取出的字段值就是信号的编号
 }
-
+/*
+@brief 测试wait函数
+*/
 int main(void)
 {
     pid_t pid, pid1;
