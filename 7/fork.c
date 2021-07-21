@@ -3,6 +3,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+/*
+*@FuncName  __pid_t fork (void) __THROWNL;
+*@brief     通过系统调用,返回一个一模一样进程;在父进程中,fork()返回子进程的pid值,在子进程中,fork()返回0 
+*/
 int main()
 {
     pid_t pid;
